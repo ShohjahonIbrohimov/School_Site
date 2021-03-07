@@ -1,11 +1,11 @@
 import { Tabs } from "antd";
-
+import Home from "./Home/Main";
 const { TabPane } = Tabs;
 
 const tabItems = [
   {
     title: "Home",
-    content: <h1>Home</h1>,
+    content: <Home />,
   },
   {
     title: "User",
@@ -34,7 +34,7 @@ const tabItems = [
 ];
 
 const PageTabs = () => (
-  <Tabs defaultActiveKey='1' className='page_tabs'>
+  <Tabs defaultActiveKey='0' className='page_tabs' centered>
     {tabItems.map((item, index) => (
       <TabPane tab={item.title} key={index}>
         {item.content}

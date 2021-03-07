@@ -1,11 +1,11 @@
 import React from "react";
-import Main from "../../components/Home/Main";
+import Main from "../../components/Layout/Main";
 
 const index = () => {
   return (
     <div>
       <Main />
-    </div>   
+    </div>
   );
 };
 

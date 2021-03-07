@@ -1,12 +1,30 @@
-import React from "react";
-import Header from "../Header";
-import PageTabs from "../Tabs";
+import React, { useState } from "react";
+import { Button, Space, Tooltip } from "antd";
+import SupportRequests from "./SupportRequests";
+import SendMessage from "./SendMessage";
+import CreateUserForm from "./CreateUserForm";
+import GModal from "../GModal";
 
 const Main = () => {
+  const [open, setopen] = useState(false);
+
   return (
-    <div className='container'>
-      <Header />
-      <PageTabs />
+    <div>
+      <Space>
+        <Tooltip placement='topLeft' title='Create user'>
+          <Button shape='round' onClick={() => setopen(true)}>
+            Create
+          </Button>
+        </Tooltip>
+        <Tooltip placement='topLeft' title=' Send notification'>
+          <Button shape='round'>Write</Button>
+        </Tooltip>
+      </Space>
+      <SupportRequests />
+      <SendMessage />
+      <GModal visible={open} setVisible={setopen}>
+        <CreateUserForm />
+      </GModal>
     </div>
   );
 };

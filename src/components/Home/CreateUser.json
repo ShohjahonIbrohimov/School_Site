@@ -1,0 +1,90 @@
+[
+  {
+    "type": "text",
+    "label": "lastName",
+    "name": "lastName",
+    "placeholder": "lastName"
+  },
+  {
+    "type": "text",
+    "label": "firstName",
+    "name": "firstName",
+    "placeholder": "firstName"
+  },
+  {
+    "type": "text",
+    "label": "familyName",
+    "name": "familyName",
+    "placeholder": "familyName"
+  },
+  {
+    "type": "date",
+    "label": "birthdate",
+    "name": "birthdate",
+    "placeholder": "birthdate"
+  },
+  {
+    "type": "select",
+    "label": "birthdate",
+    "name": "birthdate",
+    "placeholder": "birthdate",
+    "options": [
+      "Admin",
+      "Manager",
+      "Nutritionist",
+      "Controller",
+      "Cashier",
+      "Students"
+    ]
+  },
+  {
+    "type": "file",
+    "label": "Photo",
+    "name": "photo",
+    "placeholder": "Photo"
+  },
+  {
+    "type": "text",
+    "label": "Telephone",
+    "name": "phone",
+    "placeholder": "+7 988 98 98"
+  },
+  {
+    "type": "email",
+    "label": "Email",
+    "name": "email",
+    "placeholder": "mail@mail.ru"
+  },
+  {
+    "type": "select",
+    "label": "School",
+    "name": "school",
+    "placeholder": "School",
+    "options": [
+      "Admin",
+      "Manager",
+      "Nutritionist",
+      "Controller",
+      "Cashier",
+      "Students"
+    ]
+  },
+  {
+    "type": "text",
+    "name": "class",
+    "label": "Class, (you can include a few)",
+    "placeholder": "4D,5G"
+  },
+  {
+    "type": "select",
+    "label": "Activeness",
+    "name": "activeness",
+    "options": ["Yes", "No"]
+  },
+  {
+    "type": "password",
+    "label": "Passwordd",
+    "name": "passwordd",
+    "placeholder": "Enter"
+  }
+]

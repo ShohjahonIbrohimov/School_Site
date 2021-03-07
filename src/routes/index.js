@@ -6,8 +6,8 @@ const MainPage = () => {
   return (
     <Router>
       <Switch>
-        {ROUTES.map((route) => (
-          <Route {...route} />
+        {ROUTES.map((route, index) => (
+          <Route key={index} {...route} />
         ))}
       </Switch>
     </Router>
