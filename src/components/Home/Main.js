@@ -3,7 +3,7 @@ import { Button, Space, Tooltip } from "antd";
 import SupportRequests from "./SupportRequests";
 import SendMessage from "./SendMessage";
 import CreateUserForm from "./CreateUserForm";
-import GModal from "../GModal";
+import GModal from "../Reusable/GModal";
 
 const Main = () => {
   const [open, setopen] = useState(false);

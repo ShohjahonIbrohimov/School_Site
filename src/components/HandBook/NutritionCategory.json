@@ -1,0 +1,44 @@
+[
+  {
+    "title": "No",
+    "dataIndex": "no",
+    "key": "no",
+    "width": "5%"
+  },
+  {
+    "title": "CategoryEating",
+    "dataIndex": "eatingCategory",
+    "key": "eatingCategory",
+    "width": "5%"
+  },
+  {
+    "title": "Municipal Budget",
+    "dataIndex": "munipicalBudget",
+    "key": "munipicalBudget",
+    "width": "5%"
+  },
+  {
+    "title": "Regional Budget",
+    "dataIndex": "regionalBudget",
+    "key": "regionalBudget",
+    "width": "5%"
+  },
+  {
+    "title": "Parental Payment",
+    "dataIndex": "parentalPayment",
+    "key": "parentalPayment",
+    "width": "5%"
+  },
+  {
+    "title": "Fullcost",
+    "dataIndex": "fullcost",
+    "key": "fullcost",
+    "width": "5%"
+  },
+  {
+    "title": "Meal time",
+    "dataIndex": "mealtime",
+    "key": "mealtime",
+    "width": "5%"
+  }
+]
